@@ -1,10 +1,12 @@
 .HangmanWord {
     display: flex;
+    justify-content: center;
     gap: .25em;
     font-size: 6rem;
     font-weight: bold;
     text-transform: uppercase;
     font-family: monospace;
+    /* width: 800px; */
 }
 
 .span-bottom {
