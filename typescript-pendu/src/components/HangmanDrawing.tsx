@@ -7,15 +7,16 @@ const leftArm = <div className="left-arm"/>
 const rightLeg = <div className="right-leg"/>
 const leftLeg = <div className="left-leg"/>
 
-const HangmanDrawing = () => {
+const bodyParts = [head, body, rightArm, leftArm, rightLeg, leftLeg]
+
+type HangmanDrawingProps = {
+  numberOfGuesses: number
+}
+
+const HangmanDrawing = ({ numberOfGuesses }: HangmanDrawingProps) => {
   return (
     <div className='HangmanDrawing'>
-        {head}
-        {body}
-        {rightArm}
-        {leftArm}
-        {rightLeg}
-        {leftLeg}
+        {bodyParts.slice(0, numberOfGuesses)}
         <div className="bar-vertical-top"/>
         <div className="bar-horizontal-top"/>
         <div className="bar-vertical-bottom"/>
