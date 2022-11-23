@@ -98,30 +98,24 @@
     .bar-vertical-top {
         height: 20px;
         width: 5px;
-        background: black;
-        position: absolute;
-        top: 0;
         margin-left: 122px;
     }
     
     .bar-horizontal-top {
         height: 5px;
         width: 75px;
-        background: black;
         margin-left: 50px;
     }
     
     .bar-vertical-bottom {
         height: 100px;
         width: 5px;
-        background: black;
         margin-left: 50px;
     }
     
     .bar-horizontal-bottom {
         height: 5px; 
         width: 100px; 
-        background: black;
     }
     
     .head {
@@ -129,7 +123,6 @@
         height: 10px;
         border-radius: 100%;
         border: 5px solid black;
-        position: absolute;
         top: 15px;
         margin-left: 115px;    
     }
@@ -137,8 +130,6 @@
     .body {
         width: 5px;
         height: 40px;
-        background: black;
-        position: absolute;
         top: 30px;
         margin-left: 122.5px;  
     }
@@ -146,44 +137,28 @@
     .right-arm {
         width: 30px;
         height: 5px;
-        background: black;
-        position: absolute;
         top: 45px;
         left: 125px;
-        rotate: -30deg;
-        transform-origin: left bottom;
     }
     
     .left-arm {
         width: 30px;
         height: 5px;
-        background: black;
-        position: absolute;
         top: 45px;
         left: 95px;
-        rotate: 30deg;
-        transform-origin: right bottom;
     }
     
     .right-leg {
         width: 30px;
         height: 5px;
-        background: black;
-        position: absolute;
         top: 65px;
         left: 122px;
-        rotate: 60deg;
-        transform-origin: left bottom;
     }
     
     .left-leg {
         width: 30px;
         height: 5px;
-        background: black;
-        position: absolute;
         top: 65px;
-        left: 97px;
-        rotate: -60deg;
-        transform-origin: right bottom;
+        left: 97px;   
     }
 }

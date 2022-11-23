@@ -1,7 +1,7 @@
 .HangmanWord {
     display: flex;
     gap: .25em;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: bold;
     text-transform: uppercase;
     font-family: monospace;
@@ -30,6 +30,6 @@
 
 @media screen and (max-width: 800px) {
     .HangmanWord {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
