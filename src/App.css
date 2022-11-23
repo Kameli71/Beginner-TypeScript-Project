@@ -15,3 +15,9 @@
 .keyboard-container {
     align-self: stretch;
 }
+
+@media screen and (min-width: 500px) {
+    .App {
+        max-width: 800px;
+    }
+}

@@ -1,6 +1,5 @@
 .HangmanWord {
     display: flex;
-    justify-content: center;
     gap: .25em;
     font-size: 6rem;
     font-weight: bold;
@@ -27,4 +26,10 @@
 
 .black {
     color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .HangmanWord {
+        font-size: 3rem;
+    }
 }
